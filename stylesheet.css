@@ -1,0 +1,226 @@
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+#logo{
+    float: left;
+    width:40%;
+}
+
+#sear{
+  margin-left: 1000px;
+  width: 20%;
+}
+
+
+  
+  .container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: left;
+        display: block;
+    }
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.rate2 {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate2:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate2:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate2:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate2 > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate2:not(:checked) > label:hover,
+.rate2:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate2 > input:checked + label:hover,
+.rate2 > input:checked + label:hover ~ label,
+.rate2 > input:checked ~ label:hover,
+.rate2 > input:checked ~ label:hover ~ label,
+.rate2 > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; }}
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .card{
+    float: left;
+    padding: 16px;
+    text-align: center;
+}
+
+#c1{
+  margin-left: 150px;
+}
+#c2{
+  margin-left: 100px;
+}
+#c3{
+  margin-left: 100px;
+}
+
+#a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#heading{
+  font-family: "Sofia", sans-serif;
+  font-size:80px;
+  margin-left: 210px;
+}
+#he{
+  font-family: "Sofia", sans-serif;
+  font-size:50px;
+  
+}
+
+#c4{
+  margin-left: 400px;
+  width:35%;
+}
